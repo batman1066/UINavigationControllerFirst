@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MyNavVC.h"
+#import "FirstVC.h"
+#import "SecondVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    FirstVC *vcFirst=[[FirstVC alloc] initWithNibName:nil
+//                                               bundle:nil];
+//
+//    MyNavVC *myNavVC=[[MyNavVC alloc] initWithRootViewController:vcFirst];
+//    self.window=[
+//                  [UIWindow alloc]
+//                  initWithFrame:[[UIScreen mainScreen] bounds]
+//                ];
+//    self.window.rootViewController=myNavVC;
+//    
+//    [self.window makeKeyAndVisible ];
     return YES;
 }
 

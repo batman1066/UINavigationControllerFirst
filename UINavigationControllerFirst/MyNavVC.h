@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyNavVC.h
 //  UINavigationControllerFirst
 //
 //  Created by yang ming on 2016/11/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyNavVC : UINavigationController<UINavigationBarDelegate>
 
 @end
-

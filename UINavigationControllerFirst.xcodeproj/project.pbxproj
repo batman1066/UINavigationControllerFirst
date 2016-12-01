@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		8C5809641DE97DDA000017FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5809631DE97DDA000017FA /* main.m */; };
 		8C5809671DE97DDA000017FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5809661DE97DDA000017FA /* AppDelegate.m */; };
-		8C58096A1DE97DDA000017FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5809691DE97DDA000017FA /* ViewController.m */; };
 		8C58096D1DE97DDA000017FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C58096B1DE97DDA000017FA /* Main.storyboard */; };
 		8C58096F1DE97DDA000017FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C58096E1DE97DDA000017FA /* Assets.xcassets */; };
 		8C5809721DE97DDA000017FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5809701DE97DDA000017FA /* LaunchScreen.storyboard */; };
 		8C58097D1DE97DDA000017FA /* UINavigationControllerFirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C58097C1DE97DDA000017FA /* UINavigationControllerFirstTests.m */; };
 		8C5809881DE97DDA000017FA /* UINavigationControllerFirstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5809871DE97DDA000017FA /* UINavigationControllerFirstUITests.m */; };
+		8C5809981DE982D3000017FA /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5809971DE982D3000017FA /* FirstVC.m */; };
+		8C58099B1DE982EF000017FA /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C58099A1DE982EF000017FA /* SecondVC.m */; };
+		8C58099E1DE98919000017FA /* MyNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C58099D1DE98919000017FA /* MyNavVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		8C5809631DE97DDA000017FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C5809651DE97DDA000017FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C5809661DE97DDA000017FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C5809681DE97DDA000017FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C5809691DE97DDA000017FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C58096C1DE97DDA000017FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C58096E1DE97DDA000017FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5809711DE97DDA000017FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		8C5809831DE97DDA000017FA /* UINavigationControllerFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigationControllerFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5809871DE97DDA000017FA /* UINavigationControllerFirstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationControllerFirstUITests.m; sourceTree = "<group>"; };
 		8C5809891DE97DDA000017FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5809961DE982D3000017FA /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		8C5809971DE982D3000017FA /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		8C5809991DE982EF000017FA /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		8C58099A1DE982EF000017FA /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		8C58099C1DE98919000017FA /* MyNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavVC.h; sourceTree = "<group>"; };
+		8C58099D1DE98919000017FA /* MyNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				8C5809651DE97DDA000017FA /* AppDelegate.h */,
 				8C5809661DE97DDA000017FA /* AppDelegate.m */,
-				8C5809681DE97DDA000017FA /* ViewController.h */,
-				8C5809691DE97DDA000017FA /* ViewController.m */,
 				8C58096B1DE97DDA000017FA /* Main.storyboard */,
+				8C58099C1DE98919000017FA /* MyNavVC.h */,
+				8C58099D1DE98919000017FA /* MyNavVC.m */,
+				8C5809961DE982D3000017FA /* FirstVC.h */,
+				8C5809971DE982D3000017FA /* FirstVC.m */,
+				8C5809991DE982EF000017FA /* SecondVC.h */,
+				8C58099A1DE982EF000017FA /* SecondVC.m */,
 				8C58096E1DE97DDA000017FA /* Assets.xcassets */,
 				8C5809701DE97DDA000017FA /* LaunchScreen.storyboard */,
 				8C5809731DE97DDA000017FA /* Info.plist */,
@@ -276,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C58096A1DE97DDA000017FA /* ViewController.m in Sources */,
 				8C5809671DE97DDA000017FA /* AppDelegate.m in Sources */,
+				8C5809981DE982D3000017FA /* FirstVC.m in Sources */,
+				8C58099B1DE982EF000017FA /* SecondVC.m in Sources */,
+				8C58099E1DE98919000017FA /* MyNavVC.m in Sources */,
 				8C5809641DE97DDA000017FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +526,7 @@
 				8C58098E1DE97DDA000017FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C58098F1DE97DDA000017FA /* Build configuration list for PBXNativeTarget "UINavigationControllerFirstTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				8C5809911DE97DDA000017FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C5809921DE97DDA000017FA /* Build configuration list for PBXNativeTarget "UINavigationControllerFirstUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				8C5809941DE97DDA000017FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
