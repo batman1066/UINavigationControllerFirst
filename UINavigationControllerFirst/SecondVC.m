@@ -30,7 +30,7 @@
                                          
     self.navigationItem.leftBarButtonItem=leftBarButtonItem;
     self.navigationItem.rightBarButtonItem=rightBarButtonItem;
-    UIView *titleView= [[UIView alloc] initWithFrame:CGRectMake(50
+     UIView *titleView= [[UIView alloc] initWithFrame:CGRectMake(50
                                                                 , 50, 50, 50)];
     UILabel *a=[[UILabel alloc] initWithFrame:CGRectMake(0
                                                                  , 0, 50, 50)];
@@ -46,6 +46,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [self.navigationController setToolbarHidden:NO animated:YES];
+    
+    self.navigationController.toolbar.backgroundColor=[UIColor darkGrayColor];
 }
 - (IBAction)toFirstVC:(id)sender {
 

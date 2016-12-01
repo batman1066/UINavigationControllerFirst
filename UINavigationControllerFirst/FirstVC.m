@@ -26,11 +26,17 @@
     //self.navigationController.delegate=self;
     //sself.view.backgroundColor=[UIColor redColor];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [self.navigationController setToolbarHidden:YES animated:YES];
+    
+    self.navigationController.toolbar.backgroundColor=[UIColor redColor];
 }
 
 - (IBAction)toSecond:(id)sender {

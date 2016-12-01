@@ -30,6 +30,12 @@
 //    @property(nullable, nonatomic,strong) UIColor *barTintColor ;//背景颜色
 //    - (void)setBackgroundImage:(nullable UIImage *)backgroundImage forToolbarPosition:(UIBarPosition)topOrBottom barMetrics:(UIBarMetrics)barMetrics; //设置背景图片
     // Do any additional setup after loading the view.
+    
+    UIBarButtonItem *rightBarButtonItem=[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"3"] style:UIBarButtonItemStylePlain target:self action:@selector(clickRight)];
+    
+    NSArray<UIBarButtonItem *> *items=[[NSArray alloc] initWithObjects:rightBarButtonItem, nil];
+    [self.navigationController.toolbar setItems:items];
+    
 }
 
 - (void)didReceiveMemoryWarning {
