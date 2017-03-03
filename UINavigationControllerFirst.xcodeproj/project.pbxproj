@@ -109,13 +109,13 @@
 			children = (
 				8C5809651DE97DDA000017FA /* AppDelegate.h */,
 				8C5809661DE97DDA000017FA /* AppDelegate.m */,
-				8C58096B1DE97DDA000017FA /* Main.storyboard */,
 				8C58099C1DE98919000017FA /* MyNavVC.h */,
 				8C58099D1DE98919000017FA /* MyNavVC.m */,
 				8C5809961DE982D3000017FA /* FirstVC.h */,
 				8C5809971DE982D3000017FA /* FirstVC.m */,
 				8C5809991DE982EF000017FA /* SecondVC.h */,
 				8C58099A1DE982EF000017FA /* SecondVC.m */,
+				8C58096B1DE97DDA000017FA /* Main.storyboard */,
 				8C58096E1DE97DDA000017FA /* Assets.xcassets */,
 				8C5809701DE97DDA000017FA /* LaunchScreen.storyboard */,
 				8C5809731DE97DDA000017FA /* Info.plist */,
@@ -439,8 +439,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = UINavigationControllerFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.UINavigationControllerFirst;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -451,8 +452,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = UINavigationControllerFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.UINavigationControllerFirst;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
